@@ -101,9 +101,9 @@ function renderGallery()
         <span id="closeBtn" class="close-btn" title="Close">&times;</span>
         <div id="modal-media"></div>
         <div class="controls">
-          <button id="prevBtn" class="control-btn" title="Previous">❮</button>
-          <button id="rotateBtn" class="control-btn" title="Rotate">🔄</button>
-          <button id="nextBtn" class="control-btn" title="Next">❯</button>
+          <button id="prevBtn" class="control-btn" title="Previous">❮ vorige beeld</button>
+          <button id="rotateBtn" class="control-btn" title="Rotate">🔄 beeld draaien</button>
+          <button id="nextBtn" class="control-btn" title="Next">volgende beeld ❯</button>
         </div>
       </div>
     </div>
