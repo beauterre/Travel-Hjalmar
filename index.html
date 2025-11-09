@@ -46,21 +46,40 @@
         .travel-links a:hover {
             text-decoration: underline;
         }
+#repo {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.7); /* semi-transparent background */
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: background 0.3s, transform 0.2s;
+}
+
+#repo:hover {
+    background: rgba(0,0,0,0.9);
+    transform: translateY(-2px);
+}
     </style>
 </head>
 <body>
-    <h1>📅 Mijn reizen</h1>
+    <h1>📅 Hjalmar's reizen</h1>
 	<script src="language.js"></script>
     <ul class="travel-links">
         <li>
-            <a href="Finland-10-2025/index.html">🇫🇮 Finland – Oktober 2025</a>
+            <a href="Finland-10-2025/index.html">🇫🇮 Jali in Finland – Oktober 2025</a>
         </li>
         <li>
-            <a href="Bulgarije-11-2025/index.html">🇧🇬 Bulgarije – November 2025</a>
+            <a href="Bulgarije-11-2025/index.html">🇧🇬 Ялмар in Bulgarije – November 2025</a>
         </li>
         <!-- Voeg hier nieuwe reizen toe -->
     </ul>
 	
-	<a href="https://github.com/beauterre/Travel-Hjalmar">github repo</a>
+	<a id="repo" href="https://github.com/beauterre/Travel-Hjalmar">github repo</a>
 </body>
 </html>
