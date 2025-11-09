@@ -3,7 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Reisrapporten</title>
-    <link rel="stylesheet" href="style.css">
+   <style>
+        body {
+            margin: 0;
+            font-family: system-ui, sans-serif;
+            background-image: url('worldmap.jpg');
+            background-size: cover;        /* fill entire page */
+            background-position: center;   /* center image */
+            background-attachment: fixed;  /* stays put when scrolling */
+            background-repeat: no-repeat;
+            color: #fff;
+            text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8); /* readability */
+			
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .travel-links {
+            list-style: none;
+            padding: 0;
+            max-width: 500px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        .travel-links li {
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .travel-links a {
+            color: #fff;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        .travel-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <h1>📅 Mijn reizen</h1>
