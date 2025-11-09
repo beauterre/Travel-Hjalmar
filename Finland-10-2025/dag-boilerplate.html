@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/jpeg" href="favicon.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reisverslag Finland - Dag 2 (3 oktober 2025)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🇫🇮 Reisverslag Finland </h1>
+<div class="top-buttons-container">
+    <a class="top-button" href="index.html">Terug naar de agenda</a>
+    <a class="top-button" href="dag2.html">Vorige dag</a>
+    <a class="top-button" href="dag4.html">Volgende dag</a>
+</div>
+
+<table>
+<tr>
+<td>
+    <h2>📅 Dag 3  (4 oktober 2025)</h2>
+    <ul class="agenda">
+         <li><span class="time"></span> </li>
+   </ul>
+</td>
+<td>
+<div id="player"></div>
+<div id="nav-buttons">
+    <button id="prevBtn">← Prev</button>
+    <button id="nextBtn">Next →</button>
+    <button id="pictureFullScreen">⛶</button>
+</div>
+</td>
+</tr>
+</table>
+
+<h2>📷 Galerie</h2>
+<div id="gallery"></div>
+
+<!-- Data -->
+<script>
+const photoPath = "./fotos/Dag3/"; // basispad voor lokale foto's
+const items = [
+    { kind: "image", url: "Screenshot_20251003-191035.png" },
+    { kind: "image", url: "IMG-20251003-WA0009.jpg", setAsBackground:true }
+];
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
