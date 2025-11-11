@@ -15,7 +15,7 @@ function dayDifference(date1, date2) {
 
   return diffDays;
 }function renderTitle() {
-    const dag = "10/11/2025";
+    const dag = "09/11/2025";
     const [dayStr, monthStr, yearStr] = dag.split('/');
     const vertrekDatum = new Date(Number(yearStr), Number(monthStr) - 1, Number(dayStr));
 
