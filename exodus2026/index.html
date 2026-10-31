@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hjalmar op reis 🏝️</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #ffe0e6, #a0eaff);
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    header h1 {
+      color: #d6006c;
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header h2 {
+      color: #006d5b;
+      margin-top: 8px;
+      font-weight: normal;
+      font-size: 1.2em;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #00a87f;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 10px;
+      margin: 5px;
+    }
+
+    nav a:hover {
+      background-color: #006d5b;
+    }
+
+    section {
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 900px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section h3 {
+      color: #d6006c;
+      border-bottom: 2px solid #00a87f;
+      padding-bottom: 5px;
+    }
+
+    section p, section li {
+      line-height: 1.5;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 10px 8px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      color: #006d5b;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #004d3c;
+    }
+
+    @media (max-width: 650px) {
+      section {
+        overflow-x: auto;
+      }
+
+      table {
+        min-width: 600px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hjalmar op reis 🏝️</h1>
+    <h2>Van Bulgarije via Nederland en Aruba naar Finland</h2>
+  </header>
+
+  <nav>
+    <a href="#reis">Mijn reis ✈️</a>
+    <a href="#aruba">Aruba 🏝️</a>
+    <a href="#finland">Finland 🇫🇮</a>
+  </nav>
+
+  <section id="reis">
+    <h3>Reisoverzicht</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Datum</th>
+          <th>Van → naar</th>
+          <th>Vlucht</th>
+          <th>Tijd</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2 nov 2026</td>
+          <td>Sofia (SOF) → Wenen (VIE)</td>
+          <td>OS772 · Austrian Airlines</td>
+          <td>12:35 → 13:10</td>
+        </tr>
+        <tr>
+          <td>2 nov 2026</td>
+          <td>Wenen (VIE) → Amsterdam (AMS)</td>
+          <td>OS315 · Austrian Airlines</td>
+          <td>14:50 → 16:45</td>
+        </tr>
+        <tr>
+          <td>9 nov 2026</td>
+          <td>Amsterdam (AMS) → Aruba (AUA)</td>
+          <td>OR381 · TUI fly</td>
+          <td>11:00 → 16:45</td>
+        </tr>
+        <tr>
+          <td>17 nov 2026</td>
+          <td>Aruba (AUA) → Amsterdam (AMS)</td>
+          <td>TUI fly</td>
+          <td>17:15 → 10:25 (+1 dag, datum controleren)</td>
+        </tr>
+        <tr>
+          <td>21 nov 2026</td>
+          <td>Amsterdam (AMS) → Helsinki (HEL)</td>
+          <td>AY1302 · Finnair</td>
+          <td>11:20 → 14:45</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Alle tijden zijn lokale tijden. Vluchttijden kunnen veranderen.</p>
+  </section>
+
+  <section id="aruba">
+    <h3>Aruba 🏝️</h3>
+    <p>Ik ga naar Aruba om mijn verjaardag bij een heel goede vriend te vieren.</p>
+    <p>Heenreis: 9 november, Amsterdam → Aruba.</p>
+    <p>Terugreis: vertrek uit Aruba op 17 november. De aankomstdatum in Amsterdam moet ik nog controleren.</p>
+  </section>
+
+  <section id="finland">
+    <h3>Daarna naar Finland 🇫🇮</h3>
+    <p>Op 21 november vlieg ik van Amsterdam naar Helsinki. Ik woon in Finland en blijf daar.</p>
+    <p>De reis via Nederland is een tussenstop in verband met mijn project in Bulgarije.</p>
+  </section>
+
+  <footer>
+    <p>Hjalmar op reis 🏝️✈️🇫🇮</p>
+  </footer>
+
+</body>
+</html>
