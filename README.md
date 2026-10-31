@@ -11,6 +11,6 @@ Reis naar Finland 2026.
 Reis naar Bulgarije 2026.
  https://beauterre.github.io/Travel-Hjalmar/Bulgarije-08-2026/
 
-Reis naar Exodus 2026.
+Rondreis Exodus 2026.
  https://beauterre.github.io/Travel-Hjalmar/exodus2026/
 
